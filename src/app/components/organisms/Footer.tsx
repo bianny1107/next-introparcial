@@ -1,7 +1,7 @@
 import { FooterContent } from "../molecules/FooterContent";
 
 export function Footer() {
-  const footerLinks = ['Github', 'YouTube', 'Twitch'];
+  const footerLinks = ['Github','Youtube']; //agregar el miduvlive
   
   return (
     <footer className="flex flex-center justify-center w-full py-12 mt-8 border-t-2 border-t-black">

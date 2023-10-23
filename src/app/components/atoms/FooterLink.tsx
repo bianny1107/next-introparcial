@@ -3,15 +3,25 @@ import React from "react";
 export const FooterLink = (props: { linkText: string }) => {
   return (
     <>
-      <span>&bull;</span>
       <a
-        className="px-1 border-dashed border-b-2 border-b-yellow-js hover:border-black"
-        href="https://github.com/Chd3451/next-intro.git"
-        rel="nofollow noreferrer"
-        target="_blank"
+        className=""
+        href="https://github.com/" //añadir link de nuestro github
+        rel="nofollow noreferrer" //esto es para que se abra una nueva pestaña
+        target="_blank"           //y mejorar la seguridad
       >
         {props.linkText}
+        <picture className="">
+            <img
+              width="35"
+              height="10"
+              loading="lazy"
+              src="" //añadir imagen
+              alt="github logo"
+            />
+        </picture>
       </a>
+    
     </>
+    
   );
 };

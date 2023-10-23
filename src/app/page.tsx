@@ -20,7 +20,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="bg-yellow-400 min-h-screen flex flex-col">
+    <div className="bg-cyan-700 min-h-screen flex flex-col">
       <Header />
       <section className="mt-48 max-w-[1000px] mx-auto">
         <h1 className="max-w-5xl mx-auto text-5xl font-extrabold text-center text-black md:text-8xl">

@@ -10,7 +10,7 @@ export const HeaderContent = (props: { headerTitle: string }) => {
           buttonLabel="Sign In"
           borderColor="border-white"
           buttonBg="bg-white"
-          textColor="text-dark"
+          textColor="text-white" //color negro
         />
         <NavButton
           buttonLabel="Sign Up"
